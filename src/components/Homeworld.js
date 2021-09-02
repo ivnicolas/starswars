@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 
 const Homeworld = (props) => {
@@ -18,7 +18,7 @@ const Homeworld = (props) => {
 
     return (
         <div>
-            <h3>{homeworld}</h3>
+            <p>{homeworld}</p>
         </div>
     );
 };
